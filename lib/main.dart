@@ -160,7 +160,8 @@ class _MyCalculatorState extends State<MyCalculator> {
           ),
           onPressed: () => onClickButton(text),
           child: Text(
-            text,
+            text, 
+            
             style: TextStyle(
                 fontSize: 22, color: tColor, fontWeight: FontWeight.bold),
           ),
