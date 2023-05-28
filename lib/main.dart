@@ -109,6 +109,7 @@ class _MyCalculatorState extends State<MyCalculator> {
               ],
             ),
             Row(
+              // these ar the buttons
               children: [
                 button(text: '7'),
                 button(text: '8'),
